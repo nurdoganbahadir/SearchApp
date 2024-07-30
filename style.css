@@ -5,9 +5,10 @@ body {
 }
 #form {
   margin: 2rem;
+  text-align: center;
 }
 input {
-  width: 60%;
+  width: 80%;
   border: 1px solid rgb(29, 191, 240);
   height: 35px;
   border-radius: 5px;
@@ -16,7 +17,7 @@ input {
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 button {
   color: white;
