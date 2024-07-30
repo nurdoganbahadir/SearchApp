@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(231, 231, 231);
+}
+#form {
+  margin: 2rem;
+}
+input {
+  width: 60%;
+  border: 1px solid rgb(29, 191, 240);
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  width: 90px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:active{
+    transform: scale(90%);
+}
+#search {
+  background-color: rgb(57, 168, 241);
+}
+#clear{
+    background-color: rgb(240, 79, 79);
+}
