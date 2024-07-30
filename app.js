@@ -15,7 +15,7 @@ function runEventLisener() {
 
 function clear() {
   searchInput.value = "";
-  Array.from(imageList.children).forEach((child) => child.remove());
+  imageList.innerHTML = "";
 }
 
 function search(e) {
