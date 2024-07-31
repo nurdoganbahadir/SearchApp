@@ -6,6 +6,10 @@ const searchBtn = document.querySelector("#search");
 const clearBtn = document.querySelector("#clear");
 const imageList = document.querySelector(".imageList");
 
+document.querySelector("body").onload = function () {
+  searchInput.focus();
+};
+
 runEventLisener();
 
 function runEventLisener() {
